@@ -22,7 +22,7 @@ def create_dag(dag_id, config):
             dag_id=dag_id,
             start_date=datetime(2026, 2, 1),
             schedule_interval=config['schedule_interval'],
-            catchup=False,  # This flag should be False to prevent backfilling from start_date
+            catchup=False,
             default_args={"owner": "story-kraft"},
             tags=[config.get("env")],
             max_active_runs=1,
