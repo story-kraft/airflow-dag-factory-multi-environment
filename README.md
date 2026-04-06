@@ -62,8 +62,8 @@ airflow-dag-factory-multi-environment/
 
 ## Prerequisites
 
-- Python 3.10+
-- Apache Airflow 2.5+
+- Python 3.11+
+- Apache Airflow 2.10+
 - `dag-factory` >= 0.19 (see `requirements.txt`)
 
 ---
